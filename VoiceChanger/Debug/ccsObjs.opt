@@ -1,0 +1,1 @@
+"./dma.obj" "./fir.obj" "./gpio.obj" "./i2s.obj" "./irq.obj" "./main.obj" "./audio_common/audio_common.obj" "./common/i2c_probe.obj" "./common/platform.obj" "./common/system_init.obj" "C:/ti/c55_lp/c5545bp_software_01.01.00.00/source_code/c55xx_diagnostics/board/diag/common/C5545BP.cmd" -llibc.a -lC55XXCSL_LP.lib 
