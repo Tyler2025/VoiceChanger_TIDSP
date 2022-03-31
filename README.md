@@ -1,4 +1,5 @@
-# VoiceChanger_TIDSP
+# VoiceChanger_TIDSP 
+![license](https://img.shields.io/github/license/Tyler2025/VoiceChanger_TIDSP)![pull](https://img.shields.io/github/issues-pr/Tyler2025/VoiceChanger_TIDSP)![watchers](https://img.shields.io/github/watchers/Tyler2025/VoiceChanger_TIDSP?style=social)![happy](https://img.shields.io/badge/Have-a%20nice%20day!-lightgrey)  
 This project uses TI DSP board(BOOST5545ULP) to realize the real-time voice changing system based on the principle of fractional frequency conversion
 ## Preconditon
 + Please make sure you've went through **[C5545 DSP BoosterPack Software User’s Guide](https://www.ti.com.cn/cn/lit/pdf/sprui92)**,and you can build or debug demos **[C5545 DSP BoosterPack Software Installer 01.01.00.00](https://www.ti.com.cn/cn/lit/zip/sprcae7)**.  
