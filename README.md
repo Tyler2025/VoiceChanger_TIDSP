@@ -13,4 +13,7 @@ This project uses TI DSP board(BOOST5545ULP) to realize the real-time voice chan
   + *Resume*.
  Or you could just simply hit the *Debug* button,The pitch of the sound input from the onboard mic will be lowered and output from the headphone port, you should be able to hear it when you plug in headphones or speakers.
 + The program has a set of simple control logic. Press `sw2` button to pause or resume playback, press `sw3` to turn off or turn on the voice changing effect, press `sw4` to change the upsampling or downsampling working mode.The three are independent of each other.
-+ Voice changing effect adjustment: In `dma.h`,there are two Macros(`A` and `B`),the output sound pitch will rise or fall by 'B/A'.So you can manipulate these two parameters to achieve different voice changing effects.
++ Voice changing effect adjustment: In `dma.h`,there are two Macros(`A` and `B`),the output sound pitch will rise or fall by `B/A`.So you can manipulate these two parameters to achieve different voice changing effects.By default,B/A = 3/2.
+## System Architecture
+![system](/Images/system.png)
+
