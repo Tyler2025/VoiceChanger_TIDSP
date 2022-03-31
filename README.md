@@ -21,7 +21,7 @@ The above diagram illustrates the system architecture.Some parameters need to be
 + Bit depth:16 bits
 + PingPong buffer Size: 512 words
 + System Clock:100MHz  
-Moreover,In order to eliminate the frequency components brought by downsampling, we designed an 11th-order low-pass FIR filter with a cutoff frequency of pi/8 in matlab.The filter will only work when downsampling.FIR filter related functions and parameters are in the 'fir.c' and 'fir.h', you can also adjust the filter yourself.
+Moreover,In order to eliminate the frequency components brought by downsampling, we designed an `11th-order` low-pass FIR filter with a cutoff frequency of `pi/8` in matlab.The filter will only work when downsampling.FIR filter related functions and parameters are in the `fir.c` and `fir.h`, you can also adjust the filter yourself.
 ## Explanation
 This project is an assignment in the DSP practical course.So the time is a bit rushed, the code is modified based on the routine, some places are not standardized, please forgive me.  
 If you have any questions, you can ask them in Issues, and pull requests for improvements are also welcome.
