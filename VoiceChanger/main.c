@@ -45,7 +45,7 @@ int main(void) {
     retVal |= SYS_setEBSR(CSL_EBSR_FIELD_SP1MODE,
                           CSL_EBSR_SP1MODE_1);  // Serial Port mode 1 (I2S1 and GP[11:10]).
 
-	retVal = initialise_i2c_interface(testArgs);
+	retVal = initialise_i2c_interface(testArgs);//initial i2c interface
 	Codec_I2S_Init(testArgs);
 	gpio_init(testArgs);
 	DMA_PingPong_Init();
